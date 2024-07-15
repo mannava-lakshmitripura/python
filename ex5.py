@@ -5,6 +5,8 @@
 # print(dog.height)
 # print(dog.weight)
 import random
-print(random.randrange(1,100))
+print(random.randint(1,100))
+
  
 
+ 
