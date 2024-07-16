@@ -14,7 +14,7 @@ def delete_task(task_index):
 def show_tasks():
     for i,task in enumerate(tasks):
         status="Done" if task["done"] else "Not Done"
-        print(f"{i}.{task['task']} - {status}")         
+        print(f"{i}.{task['task']}-{status}")         
 def main():
     while True:
         print("\\nTo-Do List Application")
@@ -39,4 +39,4 @@ def main():
             break
         else:
             print("invalid Choice")        
-main()                                      
+main                                      
