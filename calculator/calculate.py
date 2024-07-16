@@ -14,8 +14,8 @@ try:
         module.divide(a,b)
     else:
         print("invalid response")    
-except ZeroDivisionError:
-    print("number cannot be divisible by 0") 
+except ZeroDivisionError as e:
+    print("number cannot be divisible by 0",{e}) 
 except ValueError:
     print("invalid value entered")                   
 
